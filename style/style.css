@@ -1,0 +1,43 @@
+
+#playlist table td:hover{
+    cursor:move;
+}
+
+#playlist button#add-video {
+    float: right;
+    margin-bottom: 1rem;
+    margin-right: 4rem;
+}
+
+#player-wrapper{
+    margin-top:5%;
+}
+
+div#player {
+    margin: 0 auto;
+}
+
+#playlist table td .action:hover{
+    cursor: pointer;
+}
+
+.action {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+#playlist table td:nth-child(1) {
+    width: 80%;
+}
+
+input#video_name {
+    margin-bottom: 3%;
+}
+
+#playlist table td:nth-child(2), #playlist table th:nth-child(2) {
+    text-align: center;
+}
+
+.currently-playing{
+    background: #d0d0d0;
+}
